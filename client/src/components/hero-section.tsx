@@ -3,6 +3,7 @@ import { useTypingEffect } from '@/hooks/use-typing-effect';
 import { ThreeScene } from './three-scene';
 import { Reveal } from './reveal';
 import profileImg from '../assets/1000196847[1].jpg';
+import resumePdf from '../assets/GauravMehanResume (1).pdf';
 
 export function HeroSection() {
   const roles = ["Software Developer", "Web Developer"];
@@ -11,7 +12,7 @@ export function HeroSection() {
   const handleDownloadResume = () => {
     // In a real app, this would download an actual resume file
     const link = document.createElement('a');
-    link.href = '/src/assets/GauravMehanResume (1).pdf';
+    link.href = resumePdf;
     link.download = 'Resume.pdf';
     document.body.appendChild(link);
     link.click();
