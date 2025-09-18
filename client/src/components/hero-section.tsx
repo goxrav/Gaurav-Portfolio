@@ -2,6 +2,7 @@ import { Download, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 import { useTypingEffect } from '@/hooks/use-typing-effect';
 import { ThreeScene } from './three-scene';
 import { Reveal } from './reveal';
+import profileImg from '../assets/1000196847[1].jpg';
 
 export function HeroSection() {
   const roles = ["Software Developer", "Web Developer"];
@@ -97,7 +98,7 @@ export function HeroSection() {
             <Reveal delayMs={500}>
               <div className="relative" data-testid="profile-picture-container">
                 <img 
-                  src="\src\assets\1000196847[1].jpg" 
+                  src={profileImg} 
                   alt="Gaurav Mehan - Software Developer" 
                   className="w-80 h-80 rounded-full object-cover border-4 border-space-highlight pulse-glow"
                   data-testid="img-profile"
