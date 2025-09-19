@@ -25,10 +25,10 @@ export function ProjectsSection() {
       id: 3,
       title: 'Gasify⛽',
       description: 'A SaaS platform for gas booking with live tracking, comprehensive admin panel, and detailed analytics dashboard.',
-      image: 'https://images.unsplash.com/photo-1644217209694-5ca176114adb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      image: 'https://images.unsplash.com/photo-1608174427965-06e78e2f29a9?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FzJTIwYnVybmVyJTIwZmlyZXxlbnwwfHwwfHx8MA%3D%3D',
       technologies: ['React.js', 'Tailwind CSS', 'Firebase', 'MongoDB', 'Node.js', 'Express.js' ],
-      liveUrl: 'https://stellar-chat.demo',
-      githubUrl: 'https://github.com/alexnova/stellar-chat'
+      liveUrl: 'https://gasify-gamma.vercel.app/',
+      githubUrl: 'https://github.com/goxrav/Gasify.git'
     },
     
   ];
