@@ -101,7 +101,7 @@ export function HeroSection() {
                 <img 
                   src={profileImg} 
                   alt="Gaurav Mehan - Software Developer" 
-                  className="w-80 h-80rounded-full object-cover border-4 border-space-highlight pulse-glow"
+                  className="w-80 h-80 rounded-full object-cover border-4 border-space-highlight pulse-glow"
                   data-testid="img-profile"
                 />
                 {/* Orbital rings */}
