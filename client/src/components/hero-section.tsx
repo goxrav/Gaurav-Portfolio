@@ -1,4 +1,4 @@
-import { Download, Github, Linkedin, Mail, Twitter } from 'lucide-react';
+import { Download, Github, Linkedin, Mail } from 'lucide-react';
 import { useTypingEffect } from '@/hooks/use-typing-effect';
 import { ThreeScene } from './three-scene';
 import { Reveal } from './reveal';
@@ -10,7 +10,6 @@ export function HeroSection() {
   const currentRole = useTypingEffect(roles);
 
   const handleDownloadResume = () => {
-    // In a real app, this would download an actual resume file
     const link = document.createElement('a');
     link.href = resumePdf;
     link.download = 'Resume.pdf';
@@ -28,11 +27,6 @@ export function HeroSection() {
           <div className="lg:w-1/2 mb-12 lg:mb-0">
             <div className="space-y-6">
               <Reveal delayMs={100}>
-                <div className="text-space-highlight font-spacemono text-lg">
-                  
-                </div>
-              </Reveal>
-              <Reveal delayMs={200}>
                 <h1 className="font-orbitron text-5xl lg:text-7xl font-bold text-white">
                   Gaurav Mehan
                 </h1>
@@ -81,7 +75,7 @@ export function HeroSection() {
                     </a>
 
                     <a 
-                      href="mailto:gauarvjh0827@gmail.com"
+                      href="mailto:gauravjh0827@gmail.com"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="w-12 h-12 bg-space-secondary border border-space-accent rounded-full flex items-center justify-center hover:border-space-highlight hover:text-space-highlight transition-all duration-300"
