@@ -9,7 +9,7 @@ export function TimelineSection() {
       year: '2022-2026',
       title: 'B.Tech Electronics and Computer Engineering',
       description: 'Currently pursuing engineering with focus on software development and computer science fundamentals.',
-      tags: ['CGPA: 6.63'],
+      tags: ['CGPA: 6.7'],
       icon: GraduationCap,
       color: 'space-highlight'
     },

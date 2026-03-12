@@ -46,7 +46,8 @@ export function SkillsSection() {
         { name: 'Node.js', level: 100 },
         { name: 'Express.js', level: 100 },
         { name: 'RESTful APIs', level: 100 },
-        {name: 'MongoDB', level: 100}
+        {name: 'MongoDB', level: 100},
+        { name: 'MySQL', level: 75 }
       ]
     },
     {
