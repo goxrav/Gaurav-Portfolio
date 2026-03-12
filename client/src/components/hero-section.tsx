@@ -2,8 +2,8 @@ import { Download, Github, Linkedin, Mail, Twitter } from 'lucide-react';
 import { useTypingEffect } from '@/hooks/use-typing-effect';
 import { ThreeScene } from './three-scene';
 import { Reveal } from './reveal';
-import profileImg from '../assets/1000196847[1].jpg';
-import resumePdf from '../assets/GauravMehanResume (1).pdf';
+import profileImg from '../assets/Gaurav_mehan_infosys.jpeg';
+import resumePdf from '../assets/Gaurav_Mehan_Resume.pdf';
 
 export function HeroSection() {
   const roles = ["Software Developer", "Web Developer"];
